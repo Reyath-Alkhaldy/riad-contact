@@ -1,0 +1,27 @@
+{
+    "name": "riyad/contact-us",
+    "description": "This will send email to admin and save contact query in database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Riyad\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Riyad\\Contact\\ServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "RiyadAlkhaldy",
+            "email": "124738245+RiyadAlkhaldy@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+
+}
